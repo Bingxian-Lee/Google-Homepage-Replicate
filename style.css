@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow:hidden;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    display:block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    top : 120px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    top: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.pageContentWrapper{
+    margin-bottom:100px;/* Height of footer*/
+  } 
+
+  .navbottom {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  /* style the links inside navbot */
+
+  .navbottom a {
+    float: left;
+    display: block;
+    color: #000;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  div.form
+  {     
+      position: relative;
+      display: block;
+      text-align: center;
+      top: 150px;
+  }
+
